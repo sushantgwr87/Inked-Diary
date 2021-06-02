@@ -1,5 +1,6 @@
-import image from './image/inkedlogo.png';
+import image from './image/INK-flat.png';
 import { Link } from 'react-router-dom';
+import logo2 from './image/Sgwr_dragon2.png';
 
 const Navbar = () => {
     const test = () => {
@@ -10,12 +11,15 @@ const Navbar = () => {
         let submenu = document.getElementById("subm");
                 submenu.classList.toggle("sub-active");
         };
+    
+    const linkedin = "https://www.linkedin.com/in/sushant-gangwar/";
+    const github = "https://github.com/sushantgwr87";
 
     return ( 
-        <header>
+        <div>
             <nav className="navigation">
                 <ul className="menu" id="menur">
-                    <li className="logo"><img src={image} alt="Logo"/></li>
+                    <li className="logo"><img className="logo-nav" src={image} alt="Logo"/></li>
                     <li className="menu-item"><Link className="navlink" to="/">Home</Link></li>
                     <li className="menu-item"><Link className="navlink" to="/about">About</Link></li>
                     <li className="menu-item submenu" onClick={sub}>
@@ -29,7 +33,17 @@ const Navbar = () => {
                     <li className="nav-toggle" onClick={test}><i className="fa fa-bars"></i></li>
                 </ul> 
             </nav>
-        </header>
+            <div className="nav-image">
+                <img src="https://source.unsplash.com/900x400/?book,dark-library" alt="randomimage" />
+            </div>
+            <footer>
+                <div className="out-links">
+                    <a target="_blank" rel="noopener noreferrer" href={github}><i className="fab fa-github"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href={linkedin}><i className="fab fa-linkedin-in"></i></a>
+                </div>
+                <div className="copyright">&copy; Copyright to <img src={logo2} alt="sgwr-logo"/> SGWR CREATIONS</div>
+            </footer>
+        </div>
      );
 }
  
