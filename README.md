@@ -1,5 +1,18 @@
-# Inked Diary
+<p align="center">
+    <a href="https://app.netlify.com/sites/sushantgangwar/deploys"><img src="https://api.netlify.com/api/v1/badges/e87dd346-b9c2-4106-8848-904a9207e109/deploy-status" alt="netlify-status" height="30"></a>
+</p>
+&nbsp; 
+<p align="center">
+    <img src="https://img.shields.io/badge/-Reactjs-000000?style=flat&logo=react" alt="Reactjs" height="30">
+    &nbsp; &nbsp; 
+    <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" height="28">
+    &nbsp; &nbsp; 
+    <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3" alt="CSS" height="28">
+    &nbsp; &nbsp; 
+    <img src="https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript" alt="Javascript" height="30">
+</p>
 
+# Inked Diary
 A Blog website made using React.js which is backed by json server database.
 
 ## Algorithm
