@@ -12,6 +12,9 @@
     <img src="https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript" alt="Javascript" height="30">
 </p>
 
+# :warning: Important Note :warning:
+Since Heroku has stopped free hosting, json server has been taken down. Database has been removed currently so no data will be shown.
+
 # Inked Diary
 A Blog website made using React.js which is backed by json server database.
 
